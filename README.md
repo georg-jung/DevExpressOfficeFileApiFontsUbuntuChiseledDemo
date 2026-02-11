@@ -73,3 +73,7 @@ docker run --rm dx-office-linux-mwe > out.pdf
 
 GitHub Actions builds the Docker image, runs the conversion, validates the PDF header,
 and uploads the resulting PDF as an artifact.
+
+## Success: PDF created in chiseled container
+
+![Screenshot of PDF created in CI](pdf-screenshot.png)
